@@ -1,0 +1,15 @@
+<h2>TEST</h2>
+<table>
+  <thead>
+    <td>아이디</td>
+    <td>사용자 아이디</td>
+    <td>제목</td>
+    <td>완료 여부</td>
+  </thead>
+  <tr *ngFor="let todo of todos">
+    <td>{{todo.id}}</td>
+    <td>{{todo.userId}}</td>
+    <td>{{todo.title}}</td>
+    <td>{{todo.completed}}</td>
+  </tr>
+</table>
